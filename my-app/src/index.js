@@ -6,6 +6,7 @@ const styles = {
     app: {
         paddingTop: 40,
         textAlign: 'center',
+        color: 'red',
     },
 }
 
@@ -13,7 +14,7 @@ class App extends Component {
     render() {
         return (
             <div style={styles.app}>
-                Welcome to React!
+                <h1>Welcome to React!</h1>
             </div>
         )
     }
