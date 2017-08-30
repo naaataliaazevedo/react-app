@@ -15,6 +15,7 @@ class App extends Component {
         return (
             <div style={styles.app}>
                 <h1>Welcome to React!</h1>
+                <p>asdasdasd</p>
             </div>
         )
     }
